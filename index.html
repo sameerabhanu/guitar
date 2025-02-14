@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guitar Product Card</title>
+    <style>
+      #guitar {
+        width: 350px;
+        height: 360px;
+        float: left;
+        padding: 10px;
+      }
+
+      #warranty {
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+      #warranty > span {
+        font-weight: 300;
+        font-size: 15px;
+      }
+
+      #price {
+        color: rgb(0, 0, 0, 0.5);
+        margin: 0px;
+        font-size: 20px;
+        font-size: 30px;
+      }
+
+      #price > span {
+        font-size: 18px;
+        text-decoration: line-through solid grey 1.5px;
+      }
+
+      a {
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        background-color: black;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 50px;
+        color: white;
+      }
+
+      #product {
+        width: 800px;
+        height: 400px;
+        margin: auto;
+        border-radius: 30px;
+        border: 1px solid black;
+        font-family: system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="product">
+      <img src="./assets/guitar.webp" alt="guitar" id="guitar" />
+      <h2>Yamaha FSX80C Black Electro Acoustic Guitar (Made in India)</h2>
+      <p>⭐⭐⭐⭐⭐ | 5</p>
+
+      <p id="warranty">
+        WARRANTY :
+        <span> Official Manufacturer Warranty</span>
+      </p>
+
+      <p id="price">
+        Rs.13,500
+        <span> 15,500</span>
+      </p>
+
+      <p style="margin-top: 5px">inclusive of all taxes</p>
+      <p style="margin-bottom: 0px">colors</p>
+
+      <img
+        src="./assets/brown.png"
+        alt="brown"
+        style="width: 80px; height: 80px"
+      />
+
+      <img src="./assets/red.jpg" alt="red" style="width: 80px; height: 80px" />
+      <a href="#">add to cart</a>
+    </div>
+  </body>
+</html>
